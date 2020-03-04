@@ -43,7 +43,7 @@ def FindSub(l):
         if (len(res[i]) == len(set(res[i])) and len(res[i]) <= max):
             if (m < len(set(res[i]))):
                 m = len(set(res[i]))
-    return m,res
+    return m
 str=input()
 f=FindSub(str)
 print(f)
